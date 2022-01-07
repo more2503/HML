@@ -16,13 +16,4 @@ public class Process {
     public String toString() {
         return this.name;
     }
-
-    /*
-    public String toString() {
-        String res = "";
-        for (Transition t : transitions) {
-            res += t.toString() + "\n";
-        }
-        return res;
-    } */
 }
